@@ -1,5 +1,5 @@
 import pytest
-π
+
 @pytest.mark.sanity_test
 def test_01():
     assert type(3.5) == float

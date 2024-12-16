@@ -9,5 +9,13 @@ def test_01():
 def test_02():
     assert 1 == 1
 
+
+@pytest.mark.xfailπ
+def test_xfail():
+    x = 2/0
+
+@pytest.mark.xfail(raises=Exception)
+def test_xfail():
+    x = 2/0
 # @pytest.mark.skipif(condition=os)
 # def test_03():

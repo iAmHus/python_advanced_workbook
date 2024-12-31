@@ -10,7 +10,7 @@ def test_02():
     assert 1 == 1
 
 
-@pytest.mark.xfailπ
+@pytest.mark.xfail
 def test_xfail():
     x = 2/0
 

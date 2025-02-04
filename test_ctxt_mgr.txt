@@ -1,0 +1,5 @@
+hello
+hi
+this is a
+context mananger
+sample file
